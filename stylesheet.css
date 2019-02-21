@@ -1,0 +1,292 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(255,255,255,0.3);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  margin: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+.header-right img{
+  padding:20px;
+}
+.phone-number{
+  margin-bottom: 20px;
+}
+.header-right a {
+  line-height: 65px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.top-wrapper img{
+  margin-top: 100px;
+  width: 100%;
+}
+.promoting{
+  position: relative;
+}
+.ps-img{
+  width: 100%;
+  opacity:0.1;
+}
+.promoting h2{
+  background-color: #a8015d;
+  display: block;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+  width: 600px;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  margin-left: -300px;
+  font-weight: bold;
+}
+.promoting p{
+  font-size: 14px;
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 180px;
+  left: 50%;
+  width: 400px;
+  margin-left: -200px;
+}
+
+.drawn img{
+  display: block;
+  margin-top: 50px;
+  margin-left: 15%;
+  width: 70%;
+  height: 70%;
+}
+
+.ps-title{
+  width: 24%;
+  height: 24%;
+  margin-top: 70px;
+  margin-left: 38%;
+}
+.pellet-stove{
+  position: relative;
+}
+.ps-img1{
+  width: 70%;
+  height: 70%;
+  margin-top: 40px;
+  margin-left: 15%;
+}
+.pellet-stove p{
+  display: block;
+  width: 70%;
+  font-size: 14px;
+  padding-bottom: 100px;
+  margin-top: 70px;
+  margin-bottom: 60px;
+  margin-left: 15%;
+  text-align: center;
+  border-bottom: 1px solid rgba(201,192,191,0.7)
+}
+
+.s-img{
+  position: absolute;
+  top: 150px;
+  left: 650px;
+}
+.s-logo{
+  position: absolute;
+  top: 320px;
+  left: 650px;
+}
+.s-link{
+  display: block;
+  position: absolute;
+  top: 390px;
+  left: 650px;
+  background-color: gray;
+  color: white;
+  width: 255px;
+  padding: 10px 0;
+  text-align: center;
+  text-decoration: none;
+}
+.s-link:hover{
+  text-decoration: underline;
+}
+
+.y-img{
+  position: absolute;
+  top: 150px;
+  left: 930px;
+}
+.y-logo{
+  position: absolute;
+  top: 320px;
+  left: 930px;
+}
+.y-link{
+  display: block;
+  position: absolute;
+  top: 390px;
+  left: 930px;
+  background-color: #d1361b;
+  color: white;
+  width: 255px;
+  padding: 10px 0;
+  text-align: center;
+  text-decoration: none;
+}
+.y-link:hover{
+  text-decoration: underline;
+}
+
+
+.fm-title{
+  width: 40%;
+  height: 40%;
+  padding-top: 10px;
+  margin-top: 70px;
+  margin-left: 30%;
+}
+.kubota-iseki{
+  position: relative;
+}
+.fm-img1{
+  width: 70%;
+  height: 70%;
+  margin-top: 40px;
+  margin-left: 15%;
+}
+.kubota-iseki p{
+  display: block;
+  width: 70%;
+  font-size: 14px;
+  padding-bottom: 100px;
+  margin-top: 70px;
+  margin-bottom: 60px;
+  margin-left: 15%;
+  text-align: center;
+  border-bottom: 1px solid rgba(201,192,191,0.7)
+}
+
+.k-img{
+  position: absolute;
+  top: 150px;
+  left: 650px;
+}
+.k-logo{
+  position: absolute;
+  top: 320px;
+  left: 650px;
+}
+.k-link{
+  display: block;
+  position: absolute;
+  top: 390px;
+  left: 650px;
+  background-color: #128082;
+  color: white;
+  width: 255px;
+  padding: 10px 0;
+  text-align: center;
+  text-decoration: none;
+}
+.k-link:hover{
+  text-decoration: underline;
+}
+
+.i-img{
+  position: absolute;
+  top: 150px;
+  left: 930px;
+}
+.i-logo{
+  position: absolute;
+  top: 320px;
+  left: 930px;
+}
+.i-link{
+  display: block;
+  position: absolute;
+  top: 390px;
+  left: 930px;
+  background-color: #2441e5;
+  color: white;
+  width: 255px;
+  padding: 10px 0;
+  text-align: center;
+  text-decoration: none;
+}
+.i-link:hover{
+  text-decoration: underline;
+}
+
+.others-wrapper{
+  margin-top: 100px;
+  margin-left: 15%;
+}
+.others{
+  float: left;
+  width: 20%;
+  height: 20%;
+  margin-right: 120px;
+}
+
+.others a{
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.others a:hover{
+  text-decoration: underline;
+}
+.sp-img{
+  width: 120%;
+  height: 120%;
+}
+.topics-wrapper{
+  float: left;
+  width: 100%;
+  padding-top: 100px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #f0f9c7;
+}
+
+}
+.left{
+display: block;
+float: left;
+}
+.center{
+  display: inline-block;
+  float: left;
+}
+.center li{
+list-style: none;
+}
